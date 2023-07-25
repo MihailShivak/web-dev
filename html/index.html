@@ -20,24 +20,34 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
       rel="stylesheet"
     />
-    <title>Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tech Blog</title>
   </head>
-  <body style="background-color: rgb(250, 250, 250)">
+  <body style="background-color: rgba(0, 0, 0, 0.9)">
     <header>
       <nav
-        class="navbar navbar-expand-lg mx-2"
+        class="navbar navbar-expand-lg navbar-dark mx-2"
         style="
           border-radius: 0 0 5px 5px;
-          border: 1px solid rgb(225, 225, 225);
-          background-color: white;
-          box-shadow: 0px 10px 10px rgb(225, 225, 225);
-          font-family: Amatic SC;
-          font-weight: bolder;
-          font-size: x-large;
+          border: 1px solid rgb(0, 0, 0, 0.65);
+          background-color: rgb(0, 0, 0, 0.4);
+          box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.94);
+          font-family: Comfortaa;
+          font-weight: 600;
+          font-size: larger;
         "
       >
         <div class="container-fluid py-1">
-          <a class="navbar-brand p-0" href="/index.html">
+          <a
+            class="navbar-brand p-0"
+            href="/index.html"
+            style="border-right: 2px solid rgb(65, 65, 65); border-radius: 2px"
+          >
             <img src="/res/_ .png" alt="logo" width="60" />
           </a>
           <button
@@ -59,17 +69,23 @@
                   class="nav-link active"
                   aria-current="page"
                   href="/index.html"
-                  style="color: black"
+                  style="color: rgb(255, 255, 255)"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about.html" style="color: gray"
+                <a
+                  class="nav-link"
+                  href="/about.html"
+                  style="color: rgb(175, 175, 175)"
                   >About</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/support.html" style="color: gray"
+                <a
+                  class="nav-link"
+                  href="/support.html"
+                  style="color: rgb(175, 175, 175)"
                   >Support</a
                 >
               </li>
@@ -78,6 +94,209 @@
         </div>
       </nav>
     </header>
-    <main class="my-4"></main>
+    <main>
+      <div style="text-align: center; font-family: Comfortaa">
+        <div style="margin-top: 5rem; margin-bottom: 3rem">
+          <h3
+            style="
+              color: rgb(255, 255, 255);
+              font-size: x-large;
+              font-weight: bold;
+              letter-spacing: 2px;
+            "
+          >
+            Tech Blog
+          </h3>
+          <p
+            style="
+              color: rgb(175, 175, 175);
+              font-size: medium;
+              font-weight: 600;
+              letter-spacing: 0.8px;
+            "
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore,
+            molestias!
+          </p>
+        </div>
+        <a
+          class="p-3"
+          href="/index.html#main"
+          style="
+            border-radius: 10px;
+            box-shadow: 0px 0px 2px 2px whitesmoke;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            font-size: x-large;
+          "
+          >Read more
+          <img src="/res/play.png" alt="" width="20" style="margin-left: 15px"
+        /></a>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          color: white;
+          font-family: Comfortaa;
+          margin: 5rem 0;
+        "
+      >
+        <div
+          id="main"
+          class="mx-3 row row-cols-1 row-cols-md-1"
+          style="
+            box-shadow: 0px 0px 1.5px 1.5px whitesmoke;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+          "
+        >
+          <div class="col py-1 px-2">
+            <h3
+              style="
+                color: rgb(209, 209, 209);
+                font-size: medium;
+                font-weight: 500;
+                letter-spacing: 1px;
+                margin-top: 2rem;
+                text-align: center;
+              "
+            >
+              TECHNOLOGIES
+            </h3>
+            <h4
+              style="
+                color: rgb(255, 255, 255);
+                font-size: x-large;
+                font-weight: 600;
+                letter-spacing: 0.8px;
+                margin-top: 1rem;
+                text-align: center;
+              "
+            >
+              Most popular articles
+            </h4>
+          </div>
+          <div
+            class="col py-2 px-2"
+            style="display: flex; justify-content: center"
+          >
+            <div class="row row-cols-1 row-cols-md-2" style="width: 80%">
+              <div
+                class="col card py-1 px-2"
+                style="background: none; color: white; font-family: Comfortaa"
+              >
+                <img
+                  src="/res/gallery/joshua-fuller-u1EGfuB4llU-unsplash.jpg"
+                  class="card-img"
+                  alt=""
+                  style="
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 1.5px 1.5px whitesmoke;
+                    max-width: min-content;
+                  "
+                />
+                <div
+                  class="card-img-overlay my-1 mx-2"
+                  style="
+                    text-align: center;
+                    background-color: rgba(0, 0, 0, 0.25);
+                    border-radius: 10px;
+                    padding: 40% 0;
+                  "
+                >
+                  <h5
+                    class="card-title"
+                    style="
+                      font-size: xx-large;
+                      font-weight: bolder;
+                      letter-spacing: 1px;
+                      margin-bottom: 1rem;
+                    "
+                  >
+                    Card title
+                  </h5>
+                  <a
+                    class="p-2"
+                    href="/index.html#main"
+                    style="
+                      background-color: whitesmoke;
+                      border-radius: 10px;
+                      box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+                      text-decoration: none;
+                      color: rgb(0, 0, 0);
+                      font-weight: 500;
+                      font-size: large;
+                    "
+                    >Read more
+                    <img
+                      src="/res/play(2).png"
+                      alt=""
+                      width="15"
+                      style="margin-left: 15px"
+                  /></a>
+                </div>
+              </div>
+              <div
+                class="col card py-1 px-2"
+                style="background: none; color: white; font-family: Comfortaa"
+              >
+                <img
+                  src="/res/gallery/mojahid-mottakin-lmhMI34pPMA-unsplash.jpg"
+                  class="card-img"
+                  alt=""
+                  style="
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 1.5px 1.5px whitesmoke;
+                    max-width: min-content;
+                  "
+                />
+                <div
+                  class="card-img-overlay my-1 mx-2"
+                  style="
+                    text-align: center;
+                    background-color: rgba(0, 0, 0, 0.25);
+                    border-radius: 10px;
+                    padding: 40% 0;
+                  "
+                >
+                  <h5
+                    class="card-title"
+                    style="
+                      font-size: xx-large;
+                      font-weight: bolder;
+                      letter-spacing: 1px;
+                      margin-bottom: 1rem;
+                    "
+                  >
+                    Card title
+                  </h5>
+                  <a
+                    class="p-2"
+                    href="/index.html#main"
+                    style="
+                      background-color: whitesmoke;
+                      border-radius: 10px;
+                      box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+                      text-decoration: none;
+                      color: rgb(0, 0, 0);
+                      font-weight: 500;
+                      font-size: large;
+                    "
+                    >Read more
+                    <img
+                      src="/res/play(2).png"
+                      alt=""
+                      width="15"
+                      style="margin-left: 15px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
