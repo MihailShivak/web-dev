@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar.js";
 import "./style/app.css";
 import Footer from "./components/Footer/Footer.js";
-import MainLg from "./components/Main/MainLg.js";
+import Main from "./components/Main/Main.js";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           <Navbar />
         </header>
         <main>
-          <MainLg />
+          <Main />
         </main>
         <footer>
           <Footer />
