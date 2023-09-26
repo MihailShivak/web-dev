@@ -1,5 +1,5 @@
 import React from "react";
-import { MostPopularCards } from "./Cards";
+import { MostPopularCards, RegularPosts } from "./Cards";
 import "../../../style/main/content.css";
 
 export default function Content() {
@@ -11,6 +11,7 @@ export default function Content() {
           <h4 className="most-popular-h4">Most popular articles</h4>
         </div>
         <MostPopularCards />
+        <RegularPosts />
       </div>
     </div>
   );
