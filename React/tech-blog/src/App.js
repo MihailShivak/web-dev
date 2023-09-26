@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar.js";
 import "./style/app.css";
 import Footer from "./components/Footer/Footer.js";
+import MainLg from "./components/Main/MainLg.js";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
         <header>
           <Navbar />
         </header>
-        <main></main>
+        <main>
+          <MainLg />
+        </main>
         <footer>
           <Footer />
         </footer>

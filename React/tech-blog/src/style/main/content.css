@@ -1,0 +1,30 @@
+.content-body {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Comfortaa;
+  margin: 5rem 0;
+}
+
+.most-popular-module {
+  border-radius: 10px;
+}
+
+.most-popular-h3 {
+  color: rgb(209, 209, 209);
+  font-size: medium;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.most-popular-h4 {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  margin-top: 1rem;
+  text-align: center;
+}

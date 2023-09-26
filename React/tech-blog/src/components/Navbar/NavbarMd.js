@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import "../../style/navbar.css";
+import "../../style/navbar/navbar.css";
 import logo from "../../res/_ .png";
-import menuButton from "../../res/play.png";
+import menuButton from "../../res/more_white.png";
 
 export default function Navbar_Md() {
   const [showMenu, setShowMenu] = useState(false);
@@ -19,7 +19,7 @@ export default function Navbar_Md() {
             <img src={logo} alt="logo" width={60}></img>
           </a>
           <div onClick={handleMenuClick}>
-            <img src={menuButton} width={20}></img>
+            <img src={menuButton} width={40}></img>
           </div>
         </div>
         {showMenu && (
