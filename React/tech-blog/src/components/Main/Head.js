@@ -1,6 +1,6 @@
 import React from "react";
-import "../../../style/main/mainhead.css";
-import readMore from "../../../res/play.png";
+import "../../style/main/mainhead.css";
+import readMore from "../../res/play.png";
 
 export default function Head() {
   return (

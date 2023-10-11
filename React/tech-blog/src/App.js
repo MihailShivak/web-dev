@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar.js";
 import "./style/app.css";
 import Footer from "./components/Footer/Footer.js";
 import Main from "./components/Main/Main.js";
+import About from "./components/About/About.js";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Navbar />
         </header>
         <main>
-          <Main />
+          <About />
         </main>
         <footer>
           <Footer />

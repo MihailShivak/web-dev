@@ -1,8 +1,8 @@
 import React from "react";
 import { mostPopularPosts, regularPosts } from "./data";
 import { getImage } from "./getImage";
-import mostPopularCardReadMoreIcon from "../../../res/play(2).png";
-import "../../../style/main/cards.css";
+import mostPopularCardReadMoreIcon from "../../res/play(2).png";
+import "../../style/main/cards.css";
 
 export function MostPopularCards() {
   const popularPosts = mostPopularPosts.map((post) => (

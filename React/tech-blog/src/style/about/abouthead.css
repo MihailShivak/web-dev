@@ -1,0 +1,23 @@
+.head-body {
+  text-align: center;
+  font-family: Comfortaa;
+}
+
+.about-container {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.about-h3 {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.about-p {
+  color: rgb(175, 175, 175);
+  font-size: medium;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}

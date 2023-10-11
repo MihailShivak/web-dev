@@ -1,6 +1,6 @@
 import React from "react";
 import { MostPopularCards, RegularPosts } from "./Cards";
-import "../../../style/main/content.css";
+import "../../style/main/content.css";
 
 export default function Content() {
   return (
